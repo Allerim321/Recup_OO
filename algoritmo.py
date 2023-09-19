@@ -17,16 +17,21 @@ while on==1:
                     nome=input("Diga seu nome:\n->")
                     saldo_inicial=int(input("Diga seu saldo inicial:\n->"))
                     banco.criar_conta(nome, saldo_inicial)
+                    print("Conta criada")
+                    os.system('pause')
 
                 case 2:
-                os.system('cls')
-                print("Sacar")
+                    os.system('cls')
+                    print("Sacar")
 
                 case 3:
+                    os.system('cls')
 
                 case 4:
+                    os.system('cls')
 
                 case 5:
+                    os.system('cls')
 
                 case 6:
                     on=0
