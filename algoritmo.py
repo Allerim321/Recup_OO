@@ -30,20 +30,25 @@ while on==1:
                 case 3:
                     os.system('cls')
                     print("Depositar")
-                    conta=input("")
-                    valor=int(input(""))
+                    conta=input("Diga o nome da conta.\n->")
+                    valor=int(input("Digite o valor que queira depositar.\n->"))
 
                 case 4:
                     os.system('cls')
                     print("Transferir")
-                    conta=input("")
-                    valor=int(input(""))
+                    origem=input("Diga o nome da conta origem.\n->")
+                    destino=input("Diga o nome da conta destino.\n->")
+                    valor=int(input("Digite o valor.\n->"))
+                    
                 case 5:
                     os.system('cls')
-
+                    print("Imprimir saldo")
+                    print(banco.getSaldo())
+                    
                 case 6:
                     on=0
                     os.system('cls')
+                    
                 case _:
                     print("Opção inválida.")
                     os.system('pause')
